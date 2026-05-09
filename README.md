@@ -27,8 +27,8 @@ This script automates that. Point it at a root folder, log in once, and walk awa
 ## Installation
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/docusign-clm-backup.git
-cd docusign-clm-backup
+git clone https://github.com/neagkv/docusign-clm-bulk-export.git
+cd docusign-clm-bulk-export
 pip install -r requirements.txt
 python -m playwright install chromium
 ```
