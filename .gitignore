@@ -1,0 +1,31 @@
+# Downloaded documents and progress checkpoints — never commit these
+clm_backup/
+springcm_backup/
+
+# Reports
+failed_downloads.txt
+needs_manual_review.txt
+
+# Local config / auth artifacts (just in case)
+.env
+*.token
+*token*.txt
+*cookies*.json
+.completed_docs.txt
+.completed_folders.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
