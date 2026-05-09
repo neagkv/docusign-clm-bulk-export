@@ -170,7 +170,7 @@ The other timeouts (`FOLDER_NAV_TIMEOUT_SEC`, `PAGE_NAV_TIMEOUT_SEC`, `DOWNLOAD_
 
 **"Header never reached \<folder name\>"** — the script tried to navigate into a folder and the page title never updated to match. Usually transient; the folder will be retried on a re-run. If it happens consistently for one folder, check that you actually have read access to that folder in CLM.
 
-**"No ▼ trigger found in row"** — the script couldn't locate the action-menu button on a document row. The script will dump a snippet of the row's HTML so you can see the structure. Different CLM tenants sometimes render this button differently; if you hit this, please [open an issue](#contributing) with the HTML snippet.
+**"No ▼ trigger found in row"** — the script couldn't locate the action-menu button on a document row. The script will dump a snippet of the row's HTML so you can see the structure. Different CLM tenants sometimes render this button differently; if you hit this, please [open an issue](https://github.com/neagkv/docusign-clm-bulk-export/issues) with the HTML snippet.
 
 **Session keeps expiring quickly** — your CLM tenant has aggressive session timeouts. The script handles this gracefully (pauses and asks you to log back in) but you may want to do this run during a stretch when you can babysit it for a few minutes every hour.
 
